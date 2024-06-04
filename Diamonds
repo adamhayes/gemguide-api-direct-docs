@@ -1,0 +1,24 @@
+## Diamond Names
+
+This is the name of all diamond shapesnused in the API. 
+
+It is case sensitive and must correspond precisely to the diamond shape's name in the GemGuide App. 
+Space characters should be escaped as %20 i.e. Old%20European
+
+
+Baguette
+Cushion
+Emerald
+Heart
+Ideal
+Marquise
+Melee
+Old European
+Oval
+Pear
+Princess
+Radiant
+Round
+Triangle
+Lab Grown Round
+We do not include colored diamonds in the API at this time.
