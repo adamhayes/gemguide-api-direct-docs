@@ -1,8 +1,11 @@
 GemGuide Pricing Direct API
 This documentation is intended for developers learning how to use the GemGuide Pricing Direct API.
-Setup
+
+<b>Setup</b>
+
 If you are reading this documentation then you presumably already have an API key and have been registered as an authorized API user for the GemGuide Pricing Direct API. If do not already have an API key, please contact GemGuide support for further assistance. The API key will be required for all requests and you will need to provide the Username for your active Gemguide Subscription to Gemworld for call tracking.
 The user must have a row in the API_Users table in the Database, this should include their name and api_key at minimum. Once this is added, Gemworld will set up the API key to be included in the API_TOKEN_WHITELIST. Once these steps are completed, the user can access the pricing API by providing only the api_key header for the API request. 
+
 Authentication
 The GemGuide Pricing Direct API uses a modified api_key header ONLY so there is no authentication required.
 Required Headers:
@@ -152,5 +155,3 @@ Invalid requests may receive one of the following error responses:
 •	invalid_color: The color value did not match a valid color. Valid colors are specified at the top of this section (Routes#Diamonds)
 •	invalid_clarity: The clarity value did not match a valid clarity. Valid clarities are specified at the top of this section (Routes#Diamonds)
 •	server_error: There was an unexpected server issue.
-
-![image](https://github.com/adamhayes/gemguide-api-direct-docs/assets/44648620/476615e9-304c-4ae1-b73c-2e44f50dd72b)
