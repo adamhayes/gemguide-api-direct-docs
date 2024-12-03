@@ -233,4 +233,4 @@ Invalid requests may receive one of the following error responses:
 
 **Terms of Service**
 
-All Api Direct users are subject to Gemworld Internationals [Terms of Service](https://www.gemguide.com/terms)]. 
+All Api Direct users are subject to Gemworld Internationals [Terms of Service](https://www.gemguide.com/terms). 
