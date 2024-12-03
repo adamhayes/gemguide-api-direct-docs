@@ -230,4 +230,7 @@ Invalid requests may receive one of the following error responses:
 - `invalid_weight`: The `weight` specified falls outside the range of weights for the requested diamond. The diamond shape's valid weight range will be specified in the `message` property in the error response.
 - `invalid_color`: The `color` value did not match a valid color. Valid colors are specified at the top of this section (**Routes#Diamonds**)
 - `invalid_clarity`: The `clarity` value did not match a valid clarity. Valid clarities are specified at the top of this section (**Routes#Diamonds**)
-- `server_error`: There was an unexpected server issue.
+
+**Terms of Service**
+
+All Api Direct users are subject to Gemworlds Terms of Service.  [Terms of Service](https://app.gemguide.com]. 
